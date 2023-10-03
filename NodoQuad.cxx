@@ -11,7 +11,7 @@ NodoQuad::NodoQuad(Punto val){
     this->hijo1 = this->hijo2 = this->hijo3 = this->hijo4 = nullptr;
 }
 
-NodoBinario<T>::~NodoBinario(){
+NodoQuad::~NodoQuad(){
     if (this->hijo1 != nullptr) {
         delete this->hijo1;
     }
