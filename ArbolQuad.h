@@ -14,8 +14,8 @@ public:
     ~ArbolQuad();
     
     Punto datoRaiz();
-    NodoQuad* obtenerRaiz();
-    void fijarRaiz(NodoQuad* n_raiz);
+    NodoQuad* getRaiz();
+    void setRaiz(NodoQuad* n_raiz);
     
     bool isVacio();
     bool insert(Punto val);
