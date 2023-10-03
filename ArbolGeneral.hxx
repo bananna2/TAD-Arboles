@@ -8,7 +8,7 @@ ArbolGeneral<T>::ArbolGeneral() {
 template< class T >
 ArbolGeneral<T>::ArbolGeneral(T val) {
     NodoGeneral<T>* nodo = new NodoGeneral<T>;
-    nodo->fijarDato(val);
+    nodo->setDato(val);
     this->raiz = nodo;
 }
 
