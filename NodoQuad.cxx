@@ -1,5 +1,31 @@
 #include "NodoQuad.h"
 
+NodoQuad::NodoQuad(){
+    Punto punto;
+    this->dato = punto;
+    this->hijo1 = this->hijo2 = this->hijo3 = this->hijo4 = nullptr;
+}
+
+NodoQuad::NodoQuad(Punto val){
+    this->dato = val;
+    this->hijo1 = this->hijo2 = this->hijo3 = this->hijo4 = nullptr;
+}
+
+NodoBinario<T>::~NodoBinario(){
+    if (this->hijo1 != nullptr) {
+        delete this->hijo1;
+    }
+    if (this->hijo2 != nullptr) {
+        delete this->hijo2;
+    }
+    if (this->hijo3 != nullptr) {
+        delete this->hijo3;
+    }
+    if (this->hijo4 != nullptr) {
+        delete this->hijo4;
+    }
+}
+
 Punto NodoQuad::getDato() {
   return this->dato;
 }
