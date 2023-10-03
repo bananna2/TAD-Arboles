@@ -1,9 +1,12 @@
+#ifndef __PUNTO_H__
+#define __PUNTO_H__
+
 struct Punto {
     int x;
     int y;
     
     Punto& operator = (const Punto &p) {
-    		x = p.x;
+        x = p.x;
         y = p.y;
         return *this;
     }
@@ -17,3 +20,5 @@ struct Punto {
         return o;
     }
 };
+
+#endif
