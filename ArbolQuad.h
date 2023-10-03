@@ -21,7 +21,6 @@ public:
     bool insert(Punto val);
     
     void preOrden();
-    void inOrden();
     void posOrden();
     void nivelOrden();
 };
