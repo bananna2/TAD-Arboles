@@ -21,7 +21,11 @@ public:
     bool insert(Punto val);
     
     void preOrden();
+    void preOrden(NodoQuad* nodo);
+
     void posOrden();
+    void posOrden(NodoQuad* nodo);
+
     void nivelOrden();
 };
 
