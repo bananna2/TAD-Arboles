@@ -3,6 +3,7 @@
 
 #include "NodoQuad.h"
 #include "Punto.h"
+#include<queue>
 
 class ArbolQuad {
 protected:
