@@ -1,5 +1,4 @@
 #include "ArbolQuad.h"
-#include <queue>
 
 ArbolQuad::ArbolQuad() {
     this->raiz = NULL;
