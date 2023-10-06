@@ -10,9 +10,10 @@ bool ArbolKD::insertar(Punto val) {
     bool insertado = false;
     bool duplicado = false;
     NodoKD* nodo = this->raiz;
-    int contador = 1;
+    int contador = 0;
     
     while(!insertado && !duplicado) {
+        contador++;
         if(nodo->getDato() == val) {
             duplicado = true;
             break;
